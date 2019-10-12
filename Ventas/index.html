@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulario De Ventas</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	<body>
+	<h1 align="center">Formulario Ventas</h1>
+		<div class="form">
+			<form action="guardar.php" method="POST">
+				<p>Nombre Cliente</p>
+				<label for="nombre">Ingrese Nombre Cliente</label>
+				<br>
+				<input type="text" name="nombre" placeholder="Nombre" required>
+				<p>Ingrese Producto</p>
+				<label for="producto">Ingrese Producto</label>
+				<br>
+				<input type="text" name="producto" placeholder="Producto" required>
+				<p>Precio</p>
+				<label for="precio">Ingrese precio</label>
+				<br>
+				<input type="number" name="precio" placeholder="Precio" required>
+				<p>Bodega</p>
+				<label for="nombre">Ingrese Bodega</label>
+				<br>
+				<input type="text" name="bodega" placeholder="santiago, la serena, punta arenas" required>
+				<p>Correo de contaco</p>
+				<label for="correo">Direccion De Correo</label>
+				<br>
+				<input type="email" name="correo" placeholder="alguien@algo.com" required>
+				<br>
+				<br>
+				<input type="submit" value="Enviar">
+			</form>
+		</div>
+	</body>
+</html>

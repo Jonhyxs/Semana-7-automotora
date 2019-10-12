@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="estilo_login.css">
+</head>
+<body>
+ 	<h1> Modulo Registro de Usuario</h1>
+
+ 	<form action="operacion.php" method="post" >
+ 	</hr>
+ 	<p>Nombre Usuario</p>
+ 	<label for="Nombre"></label>
+ 	<input type="text" name="user" maxlength="32" required="">
+ 	<p>Clave</p>
+ 	<label for="Contraseña"></label>
+ 	<input type="password" name="pass" maxlength="8" required=""><br><br>
+ 	<select class="form-control" name="tipo" required="" >
+ 		<option value="" > Seleccionar Tipo de usuario </option>
+ 		<option value="1">Ejecutivo Ventas</option> 
+ 		<option value="2">Administrador</option>
+ 	</select><br><br>
+
+ 	<input type="submit" name="submit" value="Registrar"><br>
+ 	<input type="reset" name="clear" value="Borrar">
+ 	
+
+
+
+ 	</form>
+
+
+
+</body>
+</html>
